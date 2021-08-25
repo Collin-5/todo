@@ -1,0 +1,66 @@
+body{
+    background-color:  rgb(253, 246, 242) !important;
+}
+.center{
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+#alert{
+    font-size: 16px;
+    
+    
+}
+.submit{
+    margin: 0;
+   font-size: 15px;
+   border-radius: 10px;
+}
+.color{
+    background-color: rgb(186, 205, 235);
+}
+.clear{
+    background-color: rgb(224, 143, 96);
+}
+.edit{
+    background-color: rgb(156, 238, 183);
+}
+.delete{
+    background-color: rgba(233, 92, 87, 0.897);
+}
+.form{
+    box-shadow: 5px 5px 5px gray ;
+    border-radius: 10px;
+    
+
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    border-radius: 10px;
+}
+.item:hover{
+    background-color: rgba(233, 230, 230, 0.795);
+}
+input{
+    border-radius: 10px;
+    
+}
+@media screen and (max-width: 480px) {
+    .center{
+        width: 100%;
+    }
+
+}
+
+.items{
+    display: none;
+}
+
+.items.show{
+    display: block;
+}
+
+
+
